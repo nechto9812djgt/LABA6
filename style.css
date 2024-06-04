@@ -1,0 +1,89 @@
+div > p {
+    color: blue;
+}
+div h2 {
+    color: green;
+}
+#test p {
+    font-weight: bold;
+}
+#test h2 {
+    font-style: italic;
+}
+.bbb {
+    background-color: lightgray;
+}
+#test .bbb {
+    text-decoration: underline;
+}
+.fff {
+    border: 2px solid red;
+}
+#test a:link, #test a:visited {
+    text-decoration: none;
+    color: red;
+}
+#test a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+a.www:link, a.www:visited {
+    text-decoration: underline;
+    color: blue;
+}
+a.www:hover {
+    text-decoration: none;
+}
+#test a.www {
+    color: purple;
+}
+.eee a.www {
+    font-style: italic;
+    font-weight: bold;
+}
+.underline{
+    text-decoration: underline;
+}
+.line-through{
+    text-decoration: line-through;
+}
+.overline{
+    text-decoration: overline;
+}
+.square{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+}
+.rectangle{
+    margin-top: 5px;
+    width: 500px;
+    height: 200px;
+    border: 1px dashed blue;
+}
+.square1{
+    margin-top: 5px;
+    width: 300px;
+    height: 300px;
+    border: 1px dashed green;
+    border-radius: 5% 12% 5% 12%;
+}
+.circle{
+    margin-top: 5px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+.green-link{
+    color: green;
+    text-decoration: underline;
+}
+.red-link{
+    color: red;
+    text-decoration: underline;
+}
+.black-link{
+    color: black;
+    text-decoration: none;
+}
